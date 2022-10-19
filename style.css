@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body    {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container  {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 0.25fr);
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main main main main"
+    "box2 box2 box1 box1"
+    "box4 box4 box3 box3"
+    "box5 box5 box6 box6"
+    "box7 box7 box8 box8"
+    "box9 box9 box10 box10"
+    ;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main    {
+    grid-area: main;
+    
+}
+
+#main-img   {
+    width: 100vw;
+}
+
+#box1   {
+    grid-area: box1;
+}
+
+#box2   {
+    grid-area: box2;
+}
+
+#box3   {
+    grid-area: box3;
+}
+
+#box4   {
+    grid-area: box4;
+}
+
+#box5   {
+    grid-area: box5;
+}
+
+#box6   {
+    grid-area: box6;
+}
+
+#box7   {
+    grid-area: box7;
+    height: 50px;
+}
+
+#box8   {
+    grid-area: box8;
+}
+
+#box9   {
+    grid-area: box9;
+}
+
+#box10   {
+    grid-area: box10;
+}
+
+.graphic-design {
+    text-align: center;
+    margin-top: -12rem;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+
+.photography    {
+    text-align: center;
+    margin-top: -12rem;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
