@@ -120,10 +120,30 @@ button  {
     grid-area: box10;
 }
 
+#arrow-down {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
 #transform-title    {
     font-family: "Fraunces", serif;
     font-size: 35px;
     text-align: center;
+}
+
+#transform  {
+    font-size: 1.25em;
+    padding-top: 40px;
+    padding-left: 75px;
+    color: hsl(213, 9%, 39%);
+}
+
+#stand-out {
+    font-size: 1.25em;
+    padding-top: 40px;
+    padding-left: 75px;
+    color: hsl(213, 9%, 39%);
 }
 
 #stand-out-title    {
@@ -131,11 +151,33 @@ button  {
     text-align: center;
 }
 
-.graphic-design {
+#learn-transform  {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.4em;
+    text-decoration-color: hsl(59, 94%, 61%);
+}
+
+#learn-stand-out  {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.4em;
+    text-decoration-color:  hsl(7, 99%, 70%);
+}
+
+/* .graphic-design {
     text-align: center;
     margin-top: -12rem;
     font-family: "Fraunces", serif;
     font-weight: 700;
+} */
+
+.graphic-design {
+    color:  hsl(167, 40%, 24%);
+    text-align: center;
+    position: absolute;
+    left: 170px;
+    top: 2350px;
 }
 
 .photography    {
