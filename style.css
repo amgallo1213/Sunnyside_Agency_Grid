@@ -21,6 +21,7 @@ body    {
     "box5 box5 box6 box6"
     "box7 box7 box8 box8"
     "box9 box9 box10 box10"
+    "foot foot foot foot"
     ;
 }
 
@@ -81,6 +82,7 @@ button  {
 
 #box1   {
     grid-area: box1;
+    margin: 0
 }
 
 #box2   {
@@ -139,16 +141,18 @@ button  {
     color: hsl(213, 9%, 39%);
 }
 
-#stand-out {
-    font-size: 1.25em;
+#stand-out-paragraph {
+    font-size: 18px;
     padding-top: 40px;
     padding-left: 75px;
-    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+    /* color: hsl(213, 9%, 39%); */
 }
 
 #stand-out-title    {
     font-family: "Fraunces", serif;
     text-align: center;
+    font-size: 35px;;
 }
 
 #learn-transform  {
@@ -185,4 +189,38 @@ button  {
     margin-top: -12rem;
     font-family: "Fraunces", serif;
     font-weight: 700;
+}
+
+
+
+
+
+footer  {
+    background-color: hsl(168, 34%, 41%);
+    font-family: 'Barlow', sans-serif;
+    grid-area: foot;
+}
+#org-title  {
+    text-align: center;
+    color:  hsl(167, 40%, 24%);
+    font-size: 2em;
+    font-weight: 700;
+}
+#footer-links   {
+    text-align: center;   
+}
+.one-footer-link    {
+    text-decoration: none;
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+    margin-top: 40px;
+}
+#socials    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.one-social-icon    {
+    margin: 10px;
 }

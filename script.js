@@ -1,9 +1,9 @@
-function buttonOver(element) {
+function button(element) {
     element.style.backgroundColor = "hsl(232, 10%, 55%)";   
     element.style.color = "white";
 }
     
-function buttonOut(element) {
+function button(element) {
     element.style.backgroundColor = "hsl(210, 4%, 67%)";  
     element.style.color = "black";
 }
