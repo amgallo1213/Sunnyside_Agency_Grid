@@ -82,7 +82,7 @@ button  {
 
 #box1   {
     grid-area: box1;
-    margin: 0
+    margin-top: -4px;
 }
 
 #box2   {
@@ -95,14 +95,17 @@ button  {
 
 #box4   {
     grid-area: box4;
+    margin-top: -4px;
 }
 
 #box5   {
     grid-area: box5;
+    margin-top: -4px;
 }
 
 #box6   {
     grid-area: box6;
+    margin-top: -4px;
 }
 
 #box7   {
@@ -136,9 +139,9 @@ button  {
 
 #transform  {
     font-size: 1.25em;
-    padding-top: 40px;
+    padding-top: 70px;
     padding-left: 75px;
-    color: hsl(213, 9%, 39%);
+    /* color: hsl(213, 9%, 39%); */
 }
 
 #stand-out-paragraph {
@@ -146,7 +149,8 @@ button  {
     padding-top: 40px;
     padding-left: 75px;
     font-family: 'Barlow', sans-serif;
-    /* color: hsl(213, 9%, 39%); */
+    font-weight: 400;
+    color: hsl(232, 10%, 55%);
 }
 
 #stand-out-title    {
@@ -163,6 +167,8 @@ button  {
 }
 
 #learn-stand-out  {
+    font-family: "Fraunces", serif;
+    color: black;
     font-weight: bold;
     text-decoration-line: underline;
     text-decoration-thickness: 0.4em;
