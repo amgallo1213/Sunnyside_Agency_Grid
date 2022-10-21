@@ -199,8 +199,8 @@ button  {
     color: black;
     font-weight: bold;
     text-decoration-line: underline;
-    text-decoration-thickness: 0.4em;
-    text-decoration-color:  hsl(7, 99%, 70%);
+    text-decoration-thickness: 0.3em;
+    text-decoration-color:  hsl(7, 78%, 81%);
 }
 
 /* .graphic-design {
@@ -212,17 +212,28 @@ button  {
 
 .graphic-design {
     color:  hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
     text-align: center;
     position: absolute;
     left: 170px;
     top: 2350px;
+    line-height: 1.6rem;
 }
 
 .photography    {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(198, 62%, 26%);
     text-align: center;
-    margin-top: -12rem;
+    position: absolute;
+    left: 925px;
+    top: 2350px;
+    line-height: 1.6rem;
+}
+.titles {
     font-family: "Fraunces", serif;
-    font-weight: 700;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
 }
 
 
@@ -239,6 +250,8 @@ footer  {
     color:  hsl(167, 40%, 24%);
     font-size: 2em;
     font-weight: 700;
+    padding: 40px 20px 40px 20px;
+    margin-top: 20px;
 }
 #footer-links   {
     text-align: center;   
@@ -253,7 +266,8 @@ footer  {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 .one-social-icon    {
     margin: 10px;
