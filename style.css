@@ -235,10 +235,10 @@ button  {
     padding: 20px;
 }
 
-/* #testimonials   {
-    display: flex;
-    flex-direction: row;
-} */
+#testimonials   {
+    color:hsl(213, 9%, 39%);
+    font-family: "Fraunces", serif;
+}
 
 #client-testimonials    {
     display: grid;
