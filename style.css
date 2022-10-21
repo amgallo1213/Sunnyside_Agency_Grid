@@ -241,9 +241,12 @@ button  {
 }
 
 #client-testimonials    {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px 50px 75px 50px;
+    margin: 50px 50px 75px 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .client-photo   {
     height: 100px;
@@ -277,9 +280,10 @@ button  {
 
 
 footer  {
-    background-color: hsl(168, 34%, 41%);
+    background-color: hsl(168, 44%, 65%);
     font-family: 'Barlow', sans-serif;
     grid-area: foot;
+    margin-top: -4px;
 }
 #org-title  {
     text-align: center;
@@ -304,6 +308,7 @@ footer  {
     justify-content: center;
     padding: 30px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 .one-social-icon    {
     margin: 10px;
