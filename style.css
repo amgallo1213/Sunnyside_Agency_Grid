@@ -175,6 +175,8 @@ button  {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     color: hsl(213, 9%, 39%);
+    margin-top: 40px;
+    letter-spacing: .1em;
 }
 
 
