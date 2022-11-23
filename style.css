@@ -155,8 +155,12 @@ h1  {
 
 #transform-title    {
     font-family: "Fraunces", serif;
-    font-size: 35px;
-    text-align: center;
+    font-size: 3em;
+    text-align: left;
+    /* text-align: center; */
+    /* margin-top: 80px; */
+    margin-left: 70px;
+    padding-top: 100px;
 }
 
 #transform-paragraph  {
