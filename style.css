@@ -155,7 +155,7 @@ h1  {
 
 #transform-title    {
     font-family: "Fraunces", serif;
-    font-size: 3em;
+    font-size: 3.4em;
     text-align: left;
     /* text-align: center; */
     /* margin-top: 80px; */
@@ -170,6 +170,7 @@ h1  {
     padding-top: 70px;
     padding-left: 75px;
     color: hsl(213, 9%, 39%);
+    line-height: 1.6em;
 }
 
 
@@ -180,16 +181,16 @@ h1  {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     color: hsl(213, 9%, 39%);
-    color: hsl(202, 57%, 49%);
     margin-top: 40px;
-    letter-spacing: .1em;
+    line-height: 1.6em;
 }
 
 
 #stand-out-title    {
     font-family: "Fraunces", serif;
     text-align: center;
-    font-size: 35px;;
+    /* font-size: 35px; */
+    font-size: 3em;
 }
 
 #learn-transform  {
@@ -318,6 +319,11 @@ footer  {
     margin-bottom: 20px;
     margin-top: 40px;
 }
+
 .one-social-icon    {
     margin: 10px;
+}
+.one-social-icon:hover  {
+    cursor: pointer;
+    background-color:hsl(210, 4%, 67%);
 }
