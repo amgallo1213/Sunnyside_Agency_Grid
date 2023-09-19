@@ -111,7 +111,7 @@ h1  {
 
 #box7   {
     grid-area: box7;
-    height: 50px;
+    /* height: 50px; */
 }
 
 #box8   {
@@ -249,15 +249,18 @@ h1  {
 #testimonials   {
     color:hsl(213, 9%, 39%);
     font-family: "Fraunces", serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
 }
 
 #client-testimonials    {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 50px 50px 75px 50px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 .client-photo   {
     height: 100px;
@@ -313,6 +316,10 @@ footer  {
     padding: 20px;
     margin-top: 40px;
 }
+a .one-footer-link:hover  {
+    cursor: pointer;
+    background-color:hsl(210, 4%, 67%);
+}
 #socials    {
     display: flex;
     flex-direction: row;
@@ -321,7 +328,6 @@ footer  {
     margin-bottom: 20px;
     margin-top: 40px;
 }
-
 .one-social-icon    {
     margin: 10px;
 }
