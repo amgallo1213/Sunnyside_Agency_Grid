@@ -188,9 +188,11 @@ h1  {
 
 #stand-out-title    {
     font-family: "Fraunces", serif;
-    text-align: center;
+    /* text-align: center; */
     /* font-size: 35px; */
-    font-size: 3em;
+    font-size: 40px;
+    padding: 20px;
+    /* margin: 20px; */
 }
 
 #learn-transform  {
