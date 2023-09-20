@@ -11,7 +11,6 @@ body    {
 
 .container  {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 0.25fr);
     grid-template-areas: 
@@ -111,7 +110,6 @@ h1  {
 
 #box7   {
     grid-area: box7;
-    /* height: 50px; */
 }
 
 #box8   {
@@ -138,9 +136,6 @@ h1  {
     width: 100%;
 }
 
-/* .big-img    {
-    width: 50%;
-} */
 
 #small-img  {
     display: flex;
@@ -157,8 +152,6 @@ h1  {
     font-family: "Fraunces", serif;
     font-size: 3.4em;
     text-align: left;
-    /* text-align: center; */
-    /* margin-top: 80px; */
     margin-left: 70px;
     padding-top: 100px;
 }
@@ -188,11 +181,8 @@ h1  {
 
 #stand-out-title    {
     font-family: "Fraunces", serif;
-    /* text-align: center; */
-    /* font-size: 35px; */
     font-size: 40px;
     padding: 20px;
-    /* margin: 20px; */
 }
 
 #learn-transform  {
@@ -212,13 +202,6 @@ h1  {
     text-decoration-thickness: 0.3em;
     text-decoration-color:  hsl(7, 78%, 81%);
 }
-
-/* .graphic-design {
-    text-align: center;
-    margin-top: -12rem;
-    font-family: "Fraunces", serif;
-    font-weight: 700;
-} */
 
 .graphic-design {
     color:  hsl(167, 40%, 24%);
@@ -291,8 +274,6 @@ h1  {
 }
 
 
-
-
 footer  {
     background-color: hsl(168, 44%, 65%);
     font-family: 'Barlow', sans-serif;
@@ -316,9 +297,9 @@ footer  {
     padding: 20px;
     margin-top: 40px;
 }
-a .one-footer-link:hover  {
+.one-footer-link:hover  {
     cursor: pointer;
-    background-color:hsl(210, 4%, 67%);
+    color:hsl(210, 4%, 67%);
 }
 #socials    {
     display: flex;
@@ -333,5 +314,5 @@ a .one-footer-link:hover  {
 }
 .one-social-icon:hover  {
     cursor: pointer;
-    background-color:hsl(210, 4%, 67%);
+    color:hsl(210, 4%, 67%);
 }
