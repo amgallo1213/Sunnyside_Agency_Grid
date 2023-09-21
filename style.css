@@ -1,3 +1,19 @@
+/* 
+ hsl(7, 99%, 70%)
+ hsl(51, 100%, 49%)
+hsl(167, 40%, 24%)
+ hsl(198, 62%, 26%)
+hsl(168, 34%, 41%)
+
+ hsl(212, 27%, 19%)
+ hsl(213, 9%, 39%)
+ hsl(232, 10%, 55%)
+ hsl(210, 4%, 67%)
+hsl(0, 0%, 100%)
+
+
+hsl(199, 99%, 55%); */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,8 +27,8 @@ body    {
 
 .container  {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 0.25fr);
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 0.25fr); */
     grid-template-areas: 
     "main main main main"
     "box2 box2 box1 box1"
@@ -34,7 +50,7 @@ h1  {
     text-align: center;
     top: 30%;
     left: 30%;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-family: 'Fraunces', serif;
     font-size: 2.5em;
     letter-spacing: .3em;
@@ -45,7 +61,7 @@ h1  {
     position: absolute;
     top: 25px;
     left: 40px;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-family: 'Barlow', sans-serif;
     font-size: 2em;
     font-weight: 800;
@@ -58,7 +74,7 @@ h1  {
     font-family: 'Barlow', sans-serif;
 }
 .header-links   {
-    color: white;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
     padding: 20px;
 }
@@ -73,6 +89,12 @@ h1  {
     border-style: solid;
     margin: 0;
     font-family: 'Fraunces', serif;
+}
+
+#btn:hover  {
+    background-color: hsl(199, 99%, 55%);
+    border-color: hsl(199, 99%, 55%);
+    color: hsl(0, 0%, 100%);
 }
 
 #main-img   {
